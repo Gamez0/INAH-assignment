@@ -1,0 +1,27 @@
+data + redundant bit : code word
+
+redundant bit 을 더함으로써 에러 감지 뿐만 아니라 고칠 수 도 있다.
+
+지금껏 이 방법 말고는 에러를 감지할 방법이 없다.(논리회로에서 배운거 같다)
+
+hamming distance if i have 4bit
+0000
+1000
+0100
+0010
+0001
+i could 3bit 
+
+one code word one code find the distance 
+--------------------------------------------------------------
+시험문제!
+hamming distance dictionary 를 주고 
+dictionary 에 있는 코드들 거리 중에서 제일 작은 값: d(min)
+d(min)= s+1 이므로
+거리가 5면 5= s +1, 4개의 error를 detect할 수 있다고 하면 된다.
+
+에러를 몇개 고칠 수 있지?
+d(min)=2t+1
+9bit 데이터 4개 고칠 수 있음
+9= 2t+1
+--------------------------------------------------------------
